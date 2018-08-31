@@ -11,7 +11,7 @@
 /*css bootstrap */
 
 .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
   }
 
 .featurette-heading {
@@ -50,3 +50,31 @@
       margin-top: 7rem;
     }
   }  
+
+  .bg {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }  
+
+ .bg2{background-color: cadetblue;}
+
+ 
+ .top-nav-collapse {
+  background-color: #78909c !important;
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #78909c !important;
+  }
+}
